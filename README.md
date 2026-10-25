@@ -5,21 +5,23 @@ A responsive personal portfolio website containerized using Docker and Nginx, th
 
 ## Technologies Used
 - AWS EC2 (Ubuntu)
-- Docker
-- Nginx
+- Docker and Nginx
 - HTML and CSS
 - Git and GitHub
+- GitHub Actions
 
 ## Deployment Steps
-1. Created a portfolio website using HTML and CSS.
+1. Created a responsive portfolio website using HTML and CSS.
 2. Created a Dockerfile using the Nginx Alpine image.
 3. Built the Docker image using `docker build -t portfolio-website .`
-4. Ran the container and mapped port 80 using `docker run -d -p 80:80 portfolio-website`.
-5. Deployed the website on AWS EC2 and verified public access.
+4. Published the Docker image to Docker Hub.
+5. Deployed the container on AWS EC2 and mapped port 80.
+6. Verified that the website was accessible through the EC2 public IP.
 
 ## Project Links
-- **Live Website:** http://15.252.180.80
+- **Live Website:** http://3.108.215.123
 - **GitHub Repository:** https://github.com/ziyashaikh31/devops-portfolio-docker
+- **Docker Hub:** https://hub.docker.com/r/ziyashaikh18/portfolio-website
 
 ## Author
 Ziya Shaikh — Aspiring DevOps Engineer
